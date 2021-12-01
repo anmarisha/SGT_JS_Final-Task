@@ -1,6 +1,5 @@
-* {
-    margin:0;
-    padding:0;
+p {
+    padding-top: 20px;
 }
 
 .carousel {
@@ -20,7 +19,8 @@
     flex-wrap: wrap;
 }
 
-.row {
-    
-    padding: 10px
+.card.flex-row {
+    padding: 10px;
+    justify-content: center;
 }
+

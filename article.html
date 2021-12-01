@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,15 @@
     <title>Article</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+    <link rel="stylesheet" href="css/article.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href="#"><img style="max-width: 100px;" alt="logo" src="images/logo.jpg"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,40 +43,111 @@
         </div>
     </nav>
 
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class="link-secondary" href="home.html">Home</a></li>
-          <li class="breadcrumb-item"><a class="link-secondary" href="articles_list.html">Articles</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Article 1</li>
-        </ol>
-    </nav>
 
-    <div class="row">
-        <h2>Article 1</h2>
-    </div>
+
     <div class="container">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="link-secondary" href="home.html">Home</a></li>
+                <li class="breadcrumb-item"><a class="link-secondary" href="articles_list.html">Articles</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Article 1</li>
+            </ol>
+        </nav>
+
         <div class="row">
-            <div class="col-3">
-                <img src="images/fish.jfif">
+            <h2>Article</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <a href="images/cat-breeds-love-water.jpg" data-fancybox="gallery">
+                    <img src="images/cat-breeds-love-water.jpg" id="pussycat" alt="">
+                </a>
+            </div>
+
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolore nesciunt,
+                    accusantium eveniet ab eius animi, recusandae quae sunt numquam officiis error dolores, dolorum
+                    maiores voluptates nulla omnis quasi praesentium eum nemo odit. Voluptate enim quos a harum? Ullam,
+                    possimus. Corrupti nisi ut atque accusantium saepe quibusdam hic, totam vero. Lorem ipsum dolor sit
+                    amet consectetur, adipisicing elit. Id voluptatum fugiat, esse dolor cum accusamus neque
+                    consequatur. Temporibus aspernatur blanditiis esse tempora, eius quae quia vel reprehenderit quidem
+                    rem porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloremque repudiandae
+                    officia non possimus voluptatibus expedita neque incidunt dignissimos consectetur ad quasi corporis
+                    quae a magnam minus consequuntur, perferendis doloribus vel dolore iure explicabo molestias saepe
+                    facilis! Pariatur dignissimos, obcaecati quod alias ut magni quos cumque sint sunt odit magnam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+                <a href="images/murena.jfif" data-fancybox="gallery">
+                    <img src="images/murena.jfif" alt="">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="images/cat.jfif" data-fancybox="gallery">
+                    <img src="images/cat.jfif" alt="">
+                </a>
+            </div>
+            <div class="col-2">
+
+                <a href="images/dolphin.jpg" data-fancybox="gallery">
+                    <img src="images/dolphin.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolore nesciunt,
+                    accusantium eveniet ab eius animi, recusandae quae sunt numquam officiis error dolores, dolorum
+                    maiores voluptates nulla omnis quasi praesentium eum nemo odit. Voluptate enim quos a harum? Ullam,
+                    possimus. Corrupti nisi ut atque accusantium saepe quibusdam hic, totam vero.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <a href="images/fish.jfif" data-fancybox="gallery">
+                    <img src="images/fish.jfif" alt="">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="images/jellyfish.jpg" data-fancybox="gallery">
+                    <img src="images/jellyfish.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="images/endangered-species_iStock-495744717.jpg" data-fancybox="gallery">
+                    <img src="images/endangered-species_iStock-495744717.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-6">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolore nesciunt,
+                    accusantium eveniet ab eius animi, recusandae quae sunt numquam officiis error dolores, dolorum
+                    maiores voluptates nulla omnis quasi praesentium eum nemo odit. Voluptate enim quos a harum? Ullam,
+                    possimus. Corrupti nisi ut atque accusantium saepe quibusdam hic, totam vero.
+                </p>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
+    <br>
 
     <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright
+        <div class="text-center p-3" style="background-color: rgba(120, 200, 211, 0.2);">
+            © 2021 Copyright
         </div>
-    </footer> 
-
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
+
 </html>

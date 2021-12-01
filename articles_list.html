@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +10,11 @@
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <link rel="stylesheet" href="css/articles.css">
 </head>
-<body>
 
+<body class="d-flex flex-column">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href="#"><img style="max-width: 100px;" alt="logo" src="images/logo.jpg"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,56 +41,70 @@
         </div>
     </nav>
 
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class="link-secondary" href="home.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Articles</li>
-        </ol>
-    </nav>
+    <div id="page-content">
+        <div class="container">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="images/fish.jfif">
-            </div>
-            <div class="col-10">
-                <a class="link-secondary" href="article.html">Article 1</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit quam iusto perspiciatis? Obcaecati iusto earum ipsum vero ducimus fugit quasi exercitationem, beatae iure. Animi est obcaecati ad. In, alias!</p>
-                <hr class="mb-2">
-            </div>
-        </div>
-    </div>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="link-secondary" href="home.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Articles</li>
+                </ol>
+            </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="images/murena.jfif">
-            </div>
-            <div class="col-10">
-                <a class="link-secondary" href="article.html">Article 1</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit quam iusto perspiciatis? Obcaecati iusto earum ipsum vero ducimus fugit quasi exercitationem, beatae iure. Animi est obcaecati ad. In, alias!</p>
-                <hr class="mb-2">
-            </div>
-        </div>
-    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card flex-row">
+                        <img class="card-img-left" src="images/fish.jfif">
+                        <div class="card-body">
+                            <a class="link-secondary" href="article.html">Article</a>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Voluptatem ducimus nihil ratione.
+                                Perspiciatis nam delectus ea! Repellat laboriosam laborum quae suscipit aperiam
+                                blanditiis ut veritatis ipsum! Eius quod iste ex.</p>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="images/cat-breeds-love-water.jpg">
+                <div class="col-md-12">
+                    <div class="card flex-row">
+                        <img class="card-img-left" src="images/cat.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <a class="link-secondary" href="article.html">Article</a>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Voluptatem ducimus nihil ratione.
+                                Perspiciatis nam delectus ea! Repellat laboriosam laborum quae suscipit aperiam
+                                blanditiis ut veritatis ipsum! Eius quod iste ex.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="card flex-row">
+                        <img class="card-img-left" src="images/murena.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <a class="link-secondary" href="article.html">Article</a>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Voluptatem ducimus nihil ratione.
+                                Perspiciatis nam delectus ea! Repellat laboriosam laborum quae suscipit aperiam
+                                blanditiis ut veritatis ipsum! Eius quod iste ex.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-10">
-                <a class="link-secondary" href="article.html">Article 1</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit quam iusto perspiciatis? Obcaecati iusto earum ipsum vero ducimus fugit quasi exercitationem, beatae iure. Animi est obcaecati ad. In, alias!</p>
-                <hr class="mb-2">
-            </div>
+
+
+            <p id="pages">
+                <1|2|3|4|5>
+            </p>
+
         </div>
     </div>
 
     <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright
+        <div class="text-center p-3" style="background-color: rgba(120, 200, 211, 0.2);">
+            © 2021 Copyright
         </div>
-    </footer> 
+    </footer>
 </body>
+
 </html>

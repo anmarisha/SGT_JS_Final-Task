@@ -1,10 +1,6 @@
-img.card-img-left{
+img.article-image {
     width:200px;
     height:200px;
-}
-
-#pages {
-    text-align: right;
 }
 
 html,
@@ -14,4 +10,9 @@ body {
 
 #page-content {
   flex: 1 0 auto;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
 }

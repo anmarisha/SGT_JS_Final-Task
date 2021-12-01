@@ -1,0 +1,21 @@
+
+
+p {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+a img {
+  max-width: 200px;
+  padding: 10px;
+}
+
+a img#pussycat {
+  max-width: 500px;
+  padding-bottom: 10px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
